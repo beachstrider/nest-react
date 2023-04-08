@@ -43,6 +43,18 @@ $ npm run dev
 $ npm run build
 ```
 
+## Expose
+
+```bash
+# development
+$ frontend: http://localhost:3000
+$ backend: http://localhost:3000/api
+
+# build
+$ frontend: http://localhost
+$ backend: http://localhost/api
+```
+
 ## Test
 
 ```bash
