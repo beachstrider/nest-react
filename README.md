@@ -41,7 +41,7 @@ $ npm run dev
 
 # production
 $ npm run build
-$ npm run start
+$ npm start
 ```
 
 ## Expose
