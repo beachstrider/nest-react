@@ -73,6 +73,9 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Features
+- TailwindCSS
+
 ## Stay in touch
 
 - Author - [Jason Mendoza](https://jasonmz.carrd.co/)
