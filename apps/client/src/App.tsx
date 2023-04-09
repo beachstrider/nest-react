@@ -12,17 +12,19 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://nestjs.com" target="_blank">
-          <img src={nestLogo} className="logo" alt="Nest logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="w-full h-screen flex justify-center items-center text-center">
+      <div className="">
+        <div className="flex items-center gap-4">
+          <a href="https://nestjs.com" target="_blank">
+            <img src={nestLogo} className="w-[100px]" alt="Nest logo" />
+          </a>
+          <a href="https://reactjs.org" target="_blank">
+            <img src={reactLogo} className="w-[100px]" alt="React logo" />
+          </a>
+        </div>
+        <div className="text-3xl font-bold">Nest + React</div>
+        <div className="text-lg">{greeting}</div>
       </div>
-      <h1>Nest + React</h1>
-      <div className="text-lg">{greeting}</div>
     </div>
   )
 }
