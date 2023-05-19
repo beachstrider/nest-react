@@ -29,7 +29,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework and React TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework and [React](https://github.com/facebook/react) TypeScript starter repository.
 
 ## Installation
 
